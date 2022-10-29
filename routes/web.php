@@ -16,6 +16,9 @@ use App\Http\Controllers\pageController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+Route::get('/view/{view}', [pageController::class, 'showpageview']);
+// Route::get('/css/{css}', function () {return View("")} );
+
 Route::get('/', [pageController::class, 'main']);
 Route::get('/profile', [pageController::class, 'profile']);
 Route::get('/login', [pageController::class, 'login']);

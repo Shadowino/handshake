@@ -1,0 +1,30 @@
+body{
+  margin: 0px;
+  background-color: #EEE;
+}
+p{
+  text-align: justify;
+  font-size: 20px;
+}
+header{
+  height:90px;
+  padding: 1px;
+  padding-left: 5%;
+}
+a{
+  color: black;
+}
+.page{
+  width: 90%;
+  margin: 5%;
+  margin-top: 10px;
+}
+.content{
+  width: 80%;
+  display: inline-block;
+}
+.sidebar{
+  vertical-align: top;
+  display: inline-block;
+  width: 19%;
+}

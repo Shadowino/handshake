@@ -1,0 +1,29 @@
+.content{
+  /* border: 2px solid black; */
+}
+
+body{
+
+}
+
+.block{
+  background-color: #FFF;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.hat{
+  height: 60px;
+}
+
+.post{
+  padding-top: 25px;
+  height: 120px;
+
+}
+
+.msg{
+  margin: 0px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
