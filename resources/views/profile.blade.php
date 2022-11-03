@@ -8,20 +8,23 @@
 @parent
 <p><a href="/view/profile"> мой профиль</a></p>
 <p><a href="/view/news"> новое</a></p>
-<p><a href="/view/message"> сообщения</a></p>
+<p><a href="/view/messager"> сообщения</a></p>
 @endsection
 
 @section('content')
-<div class="block hat">
-  <p class="msg">User</p>
+<div class="user">
+  <img src="/anarchy.png" alt="no image" class="userImage">
+  <!-- <div class="userPanel"> -->
+  <div class="userInfo">
+    <p class="userName">Handshake official</p>
+    <p class="userAbout">Handshake official account.</p>
+  </div>
+  <p class="UserActions">add to Friend button</p>
+  <!-- </div> -->
 </div>
-<div class="block post">
+<div class="post">
   <p class="msg">
-    В любой книге для выделения следующего абзаца используется отступ первой
-    строки, еще называемый «красная строка». Это позволяет читателю легко отыскивать
-    взглядом новую строку и повышает, таким образом, читабельность текста.
-    На веб-странице этот прием обычно не используется, а для разделения абзацев
-    применяется отбивка.
+    Мы открылись!
   </p>
 </div>
 

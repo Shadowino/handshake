@@ -15,16 +15,28 @@ a{
   color: black;
 }
 .page{
+  /* background-color: red; */
   width: 90%;
   margin: 5%;
   margin-top: 10px;
+  min-width: 500px;
+
 }
 .content{
+  /* background-color: blue; */
   width: 80%;
   display: inline-block;
+  font-size: 18px;
 }
 .sidebar{
+  /* background-color: green; */
   vertical-align: top;
   display: inline-block;
   width: 19%;
+}
+.post{
+  background-color: white;
+  margin-bottom: 16px;
+  padding: 20px;
+  border-radius: 8px;
 }

@@ -1,0 +1,66 @@
+
+.message{
+  /* background-color: red; */
+  margin-bottom: 15px;
+}
+
+.msgImage{
+  /* background-color: blue; */
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  vertical-align: top;
+}
+.msgName{
+  /* background-color: green; */
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+}
+.msgContent{
+  /* background-color: yellow; */
+  display: inline-block;
+  font-size: 18px;
+}
+
+.msgText{
+  /* background-color: purple; */
+  display: inline-block;
+  width: 80%;
+}
+
+.editor{
+  /* background-color: red; */
+  content: '';
+  display: block;
+  clear: both;
+  /* background-color: gray; */
+}
+.textInput{
+  /* background-color: blue; */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.sendButton{
+  /* background-color: green; */
+  width:200px;
+  min-height:40px;
+  float: right;
+  display: block;
+}
+.inputForm{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height:40px;
+  background-color: #EEE;
+  border: none;
+}
+.inputForm{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height:40px;
+  background-color: #EEE;
+  border: none;
+}

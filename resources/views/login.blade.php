@@ -12,7 +12,7 @@
 @endsection
 
 @section('content')
-<div class="window centered">
+<div class="post">
   <h2 class="auth centered">Вход</h2>
   <form class="" action="#" method="get">
     <input type="text" name="name" value="" placeholder="Имя" required>
