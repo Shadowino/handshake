@@ -21,4 +21,5 @@ Route::get('/view/{view}', [pageController::class, 'showpageview']);
 
 Route::get('/', [pageController::class, 'main']);
 Route::get('/profile', [pageController::class, 'profile']);
+Route::get('/profile/{userName}', [pageController::class, 'showUser']);
 Route::get('/login', [pageController::class, 'login']);
