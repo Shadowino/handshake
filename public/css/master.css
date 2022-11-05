@@ -7,12 +7,19 @@ p{
   font-size: 20px;
 }
 header{
-  height:90px;
+  height:60px;
   padding: 1px;
   padding-left: 5%;
+  background-color: white;
 }
 a{
   color: black;
+}
+h1{
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
 }
 .page{
   /* background-color: red; */
