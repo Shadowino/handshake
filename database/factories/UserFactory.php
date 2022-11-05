@@ -19,6 +19,7 @@ class userFactory extends Factory
         return [
             'name' => fake()->firstName(),
             'surname' => fake()->lastName(),
+            'about' => fake()->catchPhrase(),
             'password' => fake()->password(8,8),
             'created_at' => now(),
         ];

@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use App\Models\user;
 
 return new class extends Migration
 {
@@ -16,9 +17,16 @@ return new class extends Migration
           $table->id();
           $table->string('name');
           $table->string('surname');
+          $table->string('about');
           $table->string('password');
           $table->timestamps();
       });
+      user::insert([
+        'name' => "Daniel",
+        'surname' => "Nightguard",
+        'about' => "administrator",
+        'password' => "sshadoww",
+      ]);
     }
 
     /**

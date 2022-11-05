@@ -13,8 +13,9 @@ class userRG extends Seeder
      *
      * @return void
      */
-    public function run()
-    {
-        user::factory()->count(5)->create();
-    }
-}
+     public function run()
+     {
+
+       user::factory()->count(5)->create();
+     }
+   }

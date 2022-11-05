@@ -16,7 +16,7 @@
   <img src="/anarchy.png" alt="no image" class="userImage">
   <!-- <div class="userPanel"> -->
   <div class="userInfo">
-    <p class="userName">Handshake official</p>
+    <p class="userName"> {{$user}}</p>
     <p class="userAbout">Handshake official account.</p>
   </div>
   <p class="UserActions">add to Friend button</p>
